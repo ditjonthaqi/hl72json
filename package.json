@@ -1,0 +1,32 @@
+{
+  "name": "hl7-json",
+  "version": "1.0.0",
+  "description": "Parse HL7 messages to JSON and stringify HL7 Objects to JSON",
+  "main": "./dist/index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "build:esm": "tsc",
+    "build:cjs": "tsc  --module commonjs",
+    "start": "tsc && node .",
+    "test": "tsc --module commonjs && node src/test/index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ditjonthaqi/hl7-json.git"
+  },
+  "keywords": [
+    "hl7",
+    "json",
+    "typescript"
+  ],
+  "author": "Ditjon Thaqi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ditjonthaqi/hl7-json/issues"
+  },
+  "homepage": "https://github.com/ditjonthaqi/hl7-json#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.3",
+    "typescript": "^4.8.4"
+  }
+}
