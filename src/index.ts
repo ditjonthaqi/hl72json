@@ -191,5 +191,3 @@ export default {
     stringify,
     parse
 } as HL7;
-
-

@@ -1,12 +1,12 @@
 {
-  "name": "hl7-json",
+  "name": "hl72json",
   "version": "1.0.0",
   "description": "Parse HL7 messages to JSON and stringify HL7 Objects to JSON",
   "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
   "scripts": {
     "tsc": "tsc",
-    "build:esm": "tsc",
-    "build:cjs": "tsc  --module commonjs",
+    "build:esm": "tsc --module ES6",
     "start": "tsc && node .",
     "test": "tsc --module commonjs && node src/test/index.test.js"
   },
