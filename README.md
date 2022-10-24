@@ -7,7 +7,7 @@
 - Messages are considered to be valid as long as they can be parsed
 ---
 **Install**
-npm i hl72json
+- npm i hl72json
 ---
 
 
