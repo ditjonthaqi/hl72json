@@ -7,7 +7,7 @@
 - Messages are considered to be valid as long as they can be parsed
 ---
 ## Installing
-    npm install qewd-hl72json
+    npm install hl72json
 
 
 
