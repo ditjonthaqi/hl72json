@@ -6,6 +6,11 @@
 - This is module does not follow any standart for HL7 messages
 - Messages are considered to be valid as long as they can be parsed
 ---
+**Install**
+npm i hl72json
+---
+
+
 
 - No dependencies
 - Support for Typescript
