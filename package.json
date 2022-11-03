@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Parse HL7 messages to JSON and stringify HL7 Objects to JSON",
   "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
   "typings": "./dist/index.d.ts",
   "scripts": {
     "tsc": "tsc",
